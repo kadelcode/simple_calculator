@@ -1,2 +1,2 @@
 # simple_calculator
-A simple calculator that allows a user to perform basic operations such as addition, subtraction, ...
+A command-line calculator that allows a user to perform basic operations such as addition, subtraction, multiplication and division.
