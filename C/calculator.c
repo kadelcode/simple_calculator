@@ -53,7 +53,7 @@ double divide(double a, double b)
 /**
  * main - Entry point
  * Return: Always zero
- */
+
 int main(void)
 {
 	double num1, num2;
@@ -101,3 +101,4 @@ int main(void)
 
 	return (0);
 }
+*/
