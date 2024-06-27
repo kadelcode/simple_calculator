@@ -1,47 +1,52 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "calculator.h"
 
 /**
  * add - prints the addition of two numbers
  * @a: first number
  * @b: second number
+ * Returns: a + b
  */
-void add(double a, double b)
+double add(double a, double b)
 {
-	printf("Result: %.2lf\n", a + b);
+	return a + b;
 }
 
 /**
  * subtract - prints the subtraction of two numbers
  * @a: first number
  * @b: second number
+ * Returns: a - b
  */
-void subtract(double a, double b)
+double subtract(double a, double b)
 {
-	printf("Result: %.2lf\n", a - b);
+	return a - b;
 }
 
 /**
  * multiply - prints the multiplication of two numbers
  * @a: first number
  * @b: second number
+ * Returns: a * b
  */
-void multiply(double a, double b)
+double multiply(double a, double b)
 {
-	printf("Result: %.2lf\n", a * b);
+	return a * b
 }
 
 /**
  * divide - prints the division of two numbers to STDOUT
  * @a: first number
  * @b: second number
+ * Returns: a / b if b != 0 else -1
  */
-void divide(double a, double b)
+double divide(double a, double b)
 {
 	if (b == 0)
-		printf("Error: Division by zero is not allowed.\n");
+		return -1
 	else
-		printf("Result: %.2lf\n", a / b);
+		return a / b;
 }
 
 
